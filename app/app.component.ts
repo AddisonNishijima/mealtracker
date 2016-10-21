@@ -4,23 +4,31 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'my-app',
   template: `
-  <div>
+  <div class="jumbotron">
   <h1>Meal Tracker</h1>
   </div>
-  <div class="col-md-8">
-  <h1>Meals I've Had Today</h1>
-  <meal-list
-  ></meal-list>
-  <edit-meal
-    [childSelectedMeal]="selectedMeal"
-    (doneClickedSender)="finishedEditing()"
-  ></edit-meal>
+  <div class="container">
+    <div class="row">
+      <div>
+      </div>
+      <div class="col-xs-8">
+        <meal-list
+        [childMealList]="masterMealList"
+        (clickSender)="showDetails($event)"
+        ></meal-list>
+      <edit-meal
+        [childSelectedMeal]="selectedMeal"
+        (doneClickedSender)="finishedEditing()"
+      ></edit-meal>
+      </div>
+      <div class="col-xs-4">
+        <new-meal
+          (newMealSender)="addMeal($event)"
+        ></new-meal>
+      </div>
+    </div>
   </div>
-  <div class="col-md-4">
-    <new-meal
-      (newMealSender)="addMeal($event)"
-    ></new-meal>
-  </div>
+
   `
 })
 

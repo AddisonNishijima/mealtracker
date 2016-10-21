@@ -5,8 +5,10 @@ import { Meal } from './meal.model';
   selector: 'meal-list',
   template: `
   <div class ="meal" *ngFor="let currentMeal of childMealList">
-  <meal-display [meal]="currentMeal"></meal-display>
-  <button class="btn btn-default"(click)="editButtonHasBeenClicked(currentTask)" >Edit</button>
+    <meal-display
+     [childMeal]="currentMeal">
+    </meal-display>
+    <button class="btn btn-default"(click)="editButtonHasBeenClicked(currentTask)" >Edit</button>
   </div>
   `
 })
