@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Meal } from './meal.model';
 
 @Component({
   selector: 'my-app',
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
   </div>
   <div class="col-md-8">
   <h1>Meals I've Had Today</h1>
+  <meal-list
+  ></meal-list>
   </div>
   <div class="col-md-4">
   <h1>Add a Meal</h1>
@@ -16,5 +19,11 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+  public masterMealList: Meal[] = [
+    new Meal ("strawberry yogurt granola bar", "a granola bar for breakfast yum", 150),
+    new Meal ("grande chai latte", "from Starbucks", 240),
+    new Meal ("ham and cheddar cracker stackers", "because nostalgia", 410),
+    new Meal ("cheesy rice and broccoli", "individual size", 270)
+    ];
 
 }
