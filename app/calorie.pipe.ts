@@ -15,13 +15,15 @@ export class CaloriePipe implements PipeTransform {
         }
       }
       return output;
-    }else if (desiredCalorie === "all") {
+    }else if (desiredCalorie === "lowcalorie") {
       for (var i=0; i < input.length; i++) {
         if (input[i].calories < 500) {
           output.push(input[i]);
         }
       }
       return output
+    } else {
+      return input;
     }
   }
 }

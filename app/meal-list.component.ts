@@ -6,7 +6,8 @@ import { Meal } from './meal.model';
   template: `
   <div class="selects">
     <select (change)="onChange($event.target.value)" class="filter">
-    <option value="all">Show All</option>
+    <option value="all" selected="selected">All</option>
+    <option value="lowcalorie">Low Calorie</option>
     <option value="highcalorie">High Calorie</option>
     </select>
   </div>
