@@ -25,7 +25,7 @@ import { Meal } from './meal.model';
   </div>
   `
 })
-export class EditMealComponent {
+export class NewMealComponent {
   @Output() newMealSender = new EventEmitter();
   addClicked(name: string, details: string, calories: number) {
     var newMealToAdd: Meal = new Meal(name, details, calories);
