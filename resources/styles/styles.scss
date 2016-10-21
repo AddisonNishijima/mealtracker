@@ -11,6 +11,10 @@ body {
     font-family: 'Alex Brush', cursive;
     font-size: 100px;
   }
+  p {
+    float: right;
+    padding: 10px 20px 10px 10px;
+  }
   border: solid 1px white;
   -webkit-box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
   -moz-box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);

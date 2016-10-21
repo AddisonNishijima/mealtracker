@@ -6,6 +6,7 @@ import { Meal } from './meal.model';
   template: `
   <div class="jumbotron">
   <h1>Meal Tracker</h1>
+  <p>by Addison Nishijima</p>
   </div>
   <div class="container">
     <div class="row">
