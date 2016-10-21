@@ -9,11 +9,20 @@ body {
   h1 {
     text-align: center;
   }
+  border: solid 1px white;
+  -webkit-box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
+  -moz-box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
+  box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
 }
 
 #meal {
   background-color: rgba(200, 200, 200, 0.7);
   text-align: center;
+  padding: 10px 10px 10px 10px;
+  border: solid 1px white;
+  -webkit-box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
+  -moz-box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
+  box-shadow: 4px 11px 206px 1px rgba(255,255,255,1);
 }
 
 .btn-success {
