@@ -1,0 +1,22 @@
+body {
+  background-image: url(../../resources/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: rgba(200, 200, 200, 0.7);
+  h1 {
+    text-align: center;
+  }
+}
+
+#meal {
+  background-color: rgba(200, 200, 200, 0.7);
+  text-align: center;
+}
+
+.btn-success {
+  background-color: white;
+  color: black;
+}

@@ -8,7 +8,7 @@ import { Meal } from './meal.model';
     <meal-display
      [childMeal]="currentMeal">
     </meal-display>
-    <button class="btn btn-warning"(click)="editButtonHasBeenClicked(currentMeal)" >Edit</button>
+    <button class="btn btn-info"(click)="editButtonHasBeenClicked(currentMeal)" >Edit</button>
   </div>
   `
 })
