@@ -1,8 +1,8 @@
-# _{Meal tracker}_
+# _Meal tracker_
 
-#### _{This is a meal tracker made for the Angular JS Independent Project}, {10/21/2016}_
+#### _This is a meal tracker made for the Angular JS Independent Project, 10/21/2016_
 
-#### By _**{List of contributors}**_
+#### By _**Addison Nishijima**_
 
 ## Description
 
@@ -22,11 +22,11 @@
 
 ## Known Bugs
 
-_{There are no known issues}_
+_There are no known issues_
 
 ## Support and contact details
 
-_{Please contact Addison Nishijima at addison.nishijima@gmail.com for any comments, questions, or concerns}_
+_Please contact Addison Nishijima at addison.nishijima@gmail.com for any comments, questions, or concerns_
 
 ## Technologies Used
 
@@ -41,4 +41,4 @@ _{Please contact Addison Nishijima at addison.nishijima@gmail.com for any commen
 
 *{GPL}*
 
-Copyright (c) 2016 **_{Addison Nishijima}_**
+Copyright (c) 2016 **_Addison Nishijima_**
