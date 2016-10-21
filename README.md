@@ -13,12 +13,12 @@
 ## Setup/Installation Requirements
 
 * _open terminal_
-* _type in "git clone " to your terminal_
-* _type in "npm install" to your terminal_
-* _type in "bower install" to your terminal_
-* _type in "apm bootstrap install --save" to your terminal_
-* _type in "gulp build" to your terminal_
-* _type in "gulp serve" to your terminal to view the application_
+* _type in "git clone https://github.com/AddisonNishijima/mealtracker.git" into your terminal_
+* _type in "npm install" into your terminal_
+* _type in "bower install" into your terminal_
+* _type in "apm bootstrap install --save" into your terminal_
+* _type in "gulp build" into your terminal_
+* _type in "gulp serve" into your terminal to view the application_
 
 ## Known Bugs
 
