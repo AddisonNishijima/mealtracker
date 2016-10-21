@@ -11,6 +11,10 @@ import { Meal } from './meal.model';
   <h1>Meals I've Had Today</h1>
   <meal-list
   ></meal-list>
+  <edit-meal
+    [childSelectedMeal]="selectedMeal"
+    (doneClickedSender)="finishedEditing()"
+  ></edit-meal>
   </div>
   <div class="col-md-4">
   <h1>Add a Meal</h1>
@@ -25,5 +29,11 @@ export class AppComponent {
     new Meal ("ham and cheddar cracker stackers", "because nostalgia", 410),
     new Meal ("cheesy rice and broccoli", "individual size", 270)
     ];
-
+  selectedMeal: Meal = null;
+  showDetails(clickedMeal: Meal){
+    this.selectedMeal = clickedMeal;
+  }
+  finishedEditing(){
+    this.selectedMeal = null;
+  }
 }
