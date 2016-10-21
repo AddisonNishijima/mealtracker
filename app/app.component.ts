@@ -36,8 +36,8 @@ export class AppComponent {
   public masterMealList: Meal[] = [
     new Meal ("strawberry yogurt granola bar", "a granola bar for breakfast yum", 150),
     new Meal ("grande chai latte", "from Starbucks", 240),
-    new Meal ("ham and cheddar cracker stackers", "because nostalgia", 410),
-    new Meal ("cheesy rice and broccoli", "individual size", 270)
+    new Meal ("cheesy rice and broccoli", "individual size", 270),
+    new Meal ("cherry pie","to give an example of a high calorie item", 500)
     ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal){
