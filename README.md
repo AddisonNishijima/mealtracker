@@ -39,6 +39,6 @@ _Please contact Addison Nishijima at addison.nishijima@gmail.com for any comment
 
 ### License
 
-*{GPL}*
+*GPL*
 
 Copyright (c) 2016 **_Addison Nishijima_**
